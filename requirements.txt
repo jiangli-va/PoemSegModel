@@ -9,3 +9,4 @@ jieba>=0.42.1
 openai>=1.12.0
 matplotlib>=3.7.0
 tqdm>=4.66.0
+opencc>=1.1.0
