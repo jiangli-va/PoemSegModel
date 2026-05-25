@@ -16,9 +16,9 @@
 pip install -r requirements.txt
 ```
 
-### 参考：
+### 参考:
 
-github链接：
+github链接：https://github.com/jiangli-va/PoemSegModel
 huggingface链接：
 
 请引用：
