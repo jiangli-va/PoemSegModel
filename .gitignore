@@ -1,0 +1,3 @@
+﻿modelTrain/Qwen3-8B-poemseg/adapter_model.safetensors
+modelTrain/crfModel/crf_poem_seg.pkl
+modelTrain/data/*.jsonl
