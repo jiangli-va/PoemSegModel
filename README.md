@@ -18,7 +18,8 @@ pip install -r requirements.txt
 
 ### 参考:
 
-github链接：https://github.com/jiangli-va/PoemSegModel
+github链接：https://github.com/jiangli-va/PoemSegModel\\
 huggingface链接：
+https://huggingface.co/jiangli-va/qwen3-8b-poemseg-lora, https://huggingface.co/jiangli-va/crf-poemseg
 
 请引用：
