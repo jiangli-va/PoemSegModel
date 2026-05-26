@@ -1,5 +1,6 @@
 import os
 
+# 建议使用opencc
 try:
     import zhconv
     def convert_t2s(text): return zhconv.convert(text, 'zh-cn')

@@ -50,9 +50,9 @@ def main():
     output_file = "test_results.csv"
     
     # API 密钥配置 
-    DEEPSEEK_API_KEY = "sk-658cb973a1bb423cb01d53b9b1a3246a"
-    GEMINI_API_KEY = "sk-4cBSxziUBClI5bcyPKytRZV7gZrypsRjabOLc7FK6e1Dixjn"
-    GEMINI_BASE_URL = "https://yeysai.com/v1" 
+    DEEPSEEK_API_KEY = "sk-****************************a" # 替换为实际的 DeepSeek API KEY
+    GEMINI_API_KEY = "*************************************" # 替换为实际的 Gemini API KEY
+    GEMINI_BASE_URL = "https:********************************/v1" # 替换为实际的 Gemini API URL
     
     # 基础模型可根据实际情况修改
     qwen_base_model = "Qwen/Qwen3-8B" 

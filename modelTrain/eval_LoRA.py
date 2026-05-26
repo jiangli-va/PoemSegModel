@@ -13,11 +13,9 @@ class LoRASegmenter:
         
         self.tokenizer = AutoTokenizer.from_pretrained(base_model_name)
         
-        # 为了防止 CPU 不支持 float16 报错并节省内存，如果使用 CPU 则尽量使用 bfloat16 或 float32
         model_kwargs = {"device_map": self.device}
         if self.device == "cpu":
             model_kwargs["torch_dtype"] = torch.float32 
-            # 如果你的内存不够(小于32G)，可以尝试换成 torch.bfloat16 或 torch.float16
         else:
             model_kwargs["torch_dtype"] = torch.float16
             
